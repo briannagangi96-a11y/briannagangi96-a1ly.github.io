@@ -752,3 +752,25 @@ footer {
     padding-bottom: 0;
   }
 }
+.project-type {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--sage);
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.project-preview-card a {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--terracotta);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
