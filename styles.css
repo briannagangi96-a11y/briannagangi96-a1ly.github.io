@@ -696,3 +696,37 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* Projects Page Fix */
+
+.projects-hero {
+  background: var(--cream);
+  padding: 110px 0 70px;
+}
+
+.projects-hero .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.projects-hero h1 {
+  max-width: 900px;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 1.02;
+  color: var(--navy);
+  margin: 16px 0 22px;
+}
+
+.projects-hero p {
+  max-width: 760px;
+  font-size: 1.15rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.case-study-section .container,
+.more-projects-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
