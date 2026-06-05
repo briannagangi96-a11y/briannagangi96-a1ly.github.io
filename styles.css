@@ -696,3 +696,31 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* Header visibility fix for Projects page */
+
+header,
+.site-header,
+.main-header {
+  position: relative;
+  z-index: 100;
+  background: var(--navy);
+}
+
+.navbar,
+.nav-container,
+.main-nav,
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav,
+.nav-links {
+  gap: 34px;
+}
+
+.main-nav a,
+.nav-links a {
+  color: var(--white);
+  text-decoration: none;
+}
