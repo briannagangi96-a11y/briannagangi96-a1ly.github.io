@@ -26,17 +26,176 @@
   </nav>
 
   <main>
-    <section class="projects-hero">
-      <div class="container">
-        <span class="eyebrow">Case Study</span>
-        <h1>Clio → HubSpot Custom API Integration</h1>
-        <p>
-          A custom integration built to connect legal operations activity, billing data,
-          and matter visibility from Clio into HubSpot for improved reporting and business intelligence.
-        </p>
-      </div>
-    </section>
-  </main>
+
+  <section class="projects-hero">
+    <div class="container">
+      <span class="eyebrow">Case Study</span>
+      <h1>Clio → HubSpot Custom API Integration</h1>
+      <p>
+        A custom integration built to connect legal operations activity, billing data,
+        and matter visibility from Clio into HubSpot for improved reporting and business intelligence.
+      </p>
+    </div>
+  </section>
+
+  <section class="case-study-section">
+    <div class="container">
+
+      <article class="case-study-card featured-case-study">
+        <div class="case-study-content">
+
+          <span class="case-study-label">Technical Case Study</span>
+
+          <h2>Connecting legal operations data to business reporting.</h2>
+
+          <p class="case-study-intro">
+            Built a custom Clio to HubSpot API integration to bring legal activity data into the firm’s CRM,
+            creating better visibility into time entries, expenses, billing, matter activity, and operational performance.
+          </p>
+
+          <div class="case-study-banner">
+            <div>
+              <span>Organization</span>
+              <strong>Robbins Estate Law</strong>
+            </div>
+
+            <div>
+              <span>Project Type</span>
+              <strong>Custom API Integration</strong>
+            </div>
+
+            <div>
+              <span>Focus Areas</span>
+              <strong>Legal Data · Reporting · CRM Visibility</strong>
+            </div>
+
+            <div>
+              <span>Systems</span>
+              <strong>Clio Manage · HubSpot</strong>
+            </div>
+          </div>
+
+          <div class="case-study-grid">
+            <div>
+              <h3>Challenge</h3>
+              <p>
+                The firm needed Clio activity and billing data to be visible inside HubSpot so it could be used for
+                reporting, dashboards, and operational analysis.
+              </p>
+              <p>
+                Without a direct integration, key matter activity lived outside the CRM, making it harder to connect
+                legal work, business performance, and reporting in one place.
+              </p>
+            </div>
+
+            <div>
+              <h3>Solution</h3>
+              <p>
+                I built a custom API integration between Clio and HubSpot that syncs activities from Clio into a custom
+                HubSpot object and associates them to the correct deals when a matching matter is found.
+              </p>
+              <p>
+                The integration was designed to support both ongoing real-time syncing and historical activity backfills.
+              </p>
+            </div>
+
+            <div>
+              <h3>Implementation</h3>
+              <ul>
+                <li>Created a Node and Express API application hosted on Render</li>
+                <li>Connected to Clio using OAuth access and refresh tokens</li>
+                <li>Connected to HubSpot using the HubSpot API</li>
+                <li>Created webhook endpoints for Clio activity and bill events</li>
+                <li>Built logic to sync time entries and expense entries into HubSpot</li>
+                <li>Mapped Clio matter IDs to HubSpot deals using the Clio Matter URL field</li>
+                <li>Created testing endpoints for troubleshooting, health checks, and backfills</li>
+                <li>Ran historical backfills for activities beginning January 1, 2026</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Results</h3>
+              <ul>
+                <li>Clio time entries and expenses now sync into HubSpot</li>
+                <li>Activities are associated to deals when matching matters are found</li>
+                <li>Billing-related fields can support reporting and Power BI analysis</li>
+                <li>New Clio activity continues syncing automatically</li>
+                <li>The firm has a stronger data foundation for operational reporting</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Technical Stack</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Render</li>
+                <li>Clio API</li>
+                <li>HubSpot API</li>
+                <li>OAuth</li>
+                <li>Custom HubSpot Objects</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>My Role</h3>
+              <ul>
+                <li>Integration planning</li>
+                <li>API architecture</li>
+                <li>Field mapping</li>
+                <li>Testing and troubleshooting</li>
+                <li>Webhook setup</li>
+                <li>Backfill planning</li>
+                <li>Deployment support</li>
+                <li>Ongoing optimization</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="case-study-metrics">
+            <div>
+              <strong>22,000+</strong>
+              <span>Historical Activities Reviewed</span>
+            </div>
+            <div>
+              <strong>API</strong>
+              <span>Direct System Connection</span>
+            </div>
+            <div>
+              <strong>Clio</strong>
+              <span>Legal Operations Source</span>
+            </div>
+            <div>
+              <strong>HubSpot</strong>
+              <span>Reporting Destination</span>
+            </div>
+          </div>
+
+          <div class="case-study-details">
+            <h3>Why This Project Matters</h3>
+            <p>
+              This project connected legal operations data with the firm’s broader business systems.
+              By bringing Clio activity into HubSpot, the firm gained a stronger foundation for reporting,
+              automation, business intelligence, and operational decision-making.
+            </p>
+          </div>
+
+          <div class="case-study-tags">
+            <span>API Integration</span>
+            <span>Clio</span>
+            <span>HubSpot</span>
+            <span>Legal Operations</span>
+            <span>Reporting</span>
+            <span>Systems Architecture</span>
+          </div>
+
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
 
   <footer class="site-footer">
     <p>© 2026 Brianna Lutz. All rights reserved.</p>
