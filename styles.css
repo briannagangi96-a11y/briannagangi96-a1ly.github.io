@@ -788,3 +788,15 @@ footer {
   font-weight: 800;
   letter-spacing: 0.8px;
 }
+.project-preview-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-preview-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+.project-preview-card a:hover {
+  color: var(--soft-sage);
+}
