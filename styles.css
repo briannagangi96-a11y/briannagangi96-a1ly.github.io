@@ -1088,3 +1088,31 @@ main {
 .nav-dropdown:hover .dropdown-menu {
   display: block;
 }
+/* Homepage Hero Visual Upgrade */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(7, 24, 39, 0.98) 0%, rgba(7, 24, 39, 0.9) 48%, rgba(7, 24, 39, 0.45) 100%),
+    url("hero-bg.jpg");
+  background-size: cover;
+  background-position: center right;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  right: 8%;
+  bottom: 8%;
+  width: 260px;
+  height: 260px;
+  border: 1px solid rgba(135, 169, 107, 0.28);
+  border-radius: 50%;
+  opacity: 0.45;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
