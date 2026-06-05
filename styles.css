@@ -800,3 +800,79 @@ footer {
 .project-preview-card a:hover {
   color: var(--soft-sage);
 }
+/* Services Page */
+
+.services-section {
+  background: var(--cream);
+  padding: 30px 0 80px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+}
+
+.service-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 38px;
+  box-shadow: 0 18px 45px rgba(7, 24, 39, 0.06);
+}
+
+.service-card h2 {
+  color: var(--navy);
+  font-size: 32px;
+  line-height: 1.15;
+  margin: 12px 0 16px;
+}
+
+.service-card p {
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.service-card ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+  margin: 20px 0 0;
+  padding-left: 22px;
+}
+
+.service-card li {
+  margin-bottom: 7px;
+}
+
+.services-cta {
+  background: var(--navy);
+  color: var(--white);
+  padding: 75px 0;
+  text-align: center;
+}
+
+.services-cta h2 {
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 1.08;
+  max-width: 900px;
+  margin: 0 auto 18px;
+}
+
+.services-cta p {
+  max-width: 760px;
+  margin: 0 auto 30px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    padding: 30px;
+  }
+}
