@@ -685,3 +685,18 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.case-study-grid ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+  margin: 12px 0 18px;
+  padding-left: 22px;
+}
+
+.case-study-grid li {
+  margin-bottom: 6px;
+}
+
+.case-study-grid div {
+  min-height: auto;
+}
