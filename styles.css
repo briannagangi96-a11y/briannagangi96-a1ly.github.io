@@ -1052,15 +1052,22 @@ main {
 
 .nav-dropdown {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
-.dropdown-toggle {
-  cursor: pointer;
+.nav-dropdown::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 260px;
+  height: 16px;
 }
 
 .dropdown-menu {
   position: absolute;
-  top: 34px;
+  top: 100%;
   left: 0;
   min-width: 260px;
   background: var(--white);
