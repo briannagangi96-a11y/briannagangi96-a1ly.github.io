@@ -774,3 +774,17 @@ footer {
   font-weight: 800;
   letter-spacing: 0.8px;
 }
+.back-to-projects {
+  background: var(--cream);
+  padding: 0 0 70px;
+}
+
+.back-to-projects a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--terracotta-dark);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
